@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010749;
+    font-family: 'Cormorant Italic', serif;
+    color: white;
+    background-image: url(eb89c30bbe72a66fbfedbcef4987412b.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.hero_section {
+    background-image: url('global-virtual-currency-sign-techno-concept-background-design_1017-52482.avif');
+    height: 730px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+
+.hero_section p {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.2);
+    letter-spacing: 1px;
+}
+
+.text2 {
+    padding-left: 250px;
+}
+
+button {
+    background: linear-gradient(135deg, #008CFF, #00FFFF);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00FFFF, #008CFF);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 255, 255, 0.8);
+}
+
+.exchangescreen {
+    background-image: url('eb89c30bbe72a66fbfedbcef4987412b.jpg');
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    
+}
+
+.welcome {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: white; /* Ensure text is visible */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white; /* Ensure text is visible */
+}
+
+.amount input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.dropdowns {
+    display: flex;
+    gap: 40px;
+}
+
+.from, .to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.from p, .to p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white; /* Ensure text is visible */
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+}
+.move_screen{
+    transform: translatey(-100vh);
+    transition: transform 0.8s ease-in-out;
+}
+.fade-out {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-in {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out;
+}
+#result{
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+} 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="structure.css">
+</head>
+<body>
+    <div class="hero_section">
+        <p class="main-text">Transforming currency,</p>
+        <p class="text2">empowering you</p>
+        <button id="start_button">Start converting...</button>
+    </div>
+    <form class="exchangescreen">
+        <h2 class="welcome">Welcome to currency exchange</h2>
+        <div class="input-container">
+            <div class="amount">
+                <p>Enter amount</p>
+                <input type="text" value="100" id="amountinput">
+            </div>
+            <div class="dropdowns">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/shiny/64.png">
+            <select name="from">
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>TO</p>
+                    <div class="select-container">
+                    <img src="https://flagsapi.com/PK/shiny/64.png">
+            <select name="to">
+              
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="exchangebutton">Exchange</button>
+        </div>
+    </form>
+    <p id="result">1PKR=300RS</p>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
